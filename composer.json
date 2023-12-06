@@ -1,0 +1,18 @@
+{
+  "name": "leroy/adventofcode2023",
+  "description": "Advent of Code 2023",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "Leroy\\AdventOfCode2023\\": "src/"
+    },
+    "files": [
+      "src/Support/helpers.php"
+    ]
+  },
+  "require": {
+    "php": "8.1.*",
+    "symfony/var-dumper": "^6.4",
+    "illuminate/collections": "^10.35"
+  }
+}
